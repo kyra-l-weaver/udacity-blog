@@ -3,51 +3,43 @@
   grid-row: 2;
 }
 .card{
-  background-color: aqua;
+  background:rgb(216, 231, 129);
   border-radius: 4px;
-  border: 1px solid blue;
+  border: 2px solid darkolivegreen;
   text-decoration: none;
-  
+  margin:10px;
 }
-#card-0 {
+
+#card-1 {
   grid-column: 1;
   grid-row: 2 / 4;
-  background-size: 100% 100%;
-}
-#card-1 {
-  grid-column: 2;
-  grid-row: 2 / 4;
-  background:lightgreen url('../images/hiking-harriman.png') no-repeat;
+  background: rgb(216, 231, 129) url('../images/hiking-harriman.png') no-repeat;
   background-size: 100% 90%;
   vertical-align: bottom;
   background-position-y: bottom;
-  
-
 }
+
 #card-2 {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 2 / 4;
-  background:lightgreen url('../images/getting-there.png') no-repeat;
+  background: rgb(216, 231, 129) url('../images/getting-there.png') no-repeat;
   background-size: 100% 90%;
   background-position-y: bottom;
-  
 }
   
 #card-3 {
+  grid-column: 3;
+  grid-row: 2 / 4;
+  background: rgb(216, 231, 129) url('../images/map.png') no-repeat;
+  background-size: 100% 90%;
+  background-position-y: bottom; 
+}
+
+#card-4 {
   grid-column: 4;
   grid-row: 2 / 4;
-  background:lightgreen url('../images/map.png') no-repeat;
+  background-position-y: bottom;
+  background: rgb(216, 231, 129) url('../images/camp-logo.png') no-repeat;
   background-size: 100% 90%;
-  background-position-y: bottom;
-  
-   
-}
-#card-4 {
-  grid-column: 5;
-  grid-row: 2 / 4;
-  background-position-y: bottom;
-  background:lightgreen url('../images/camp-logo.png') no-repeat;
-  background-size: 100% 90%;
-  background-position-y: bottom;
-  
+  background-position-y: bottom; 
 }

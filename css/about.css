@@ -1,0 +1,24 @@
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(30, 50px);
+}
+
+.about-main {
+  grid-column: 1 / 11;
+  grid-row: 4 / 20;
+  background-image: url(../images/me.jpg);
+  background-blend-mode: soft-light;
+  background-size: 100% 100%;
+  opacity: 80%;
+}
+
+.about-text {
+  font-family:fantasy;
+  kerning: 20px;
+  font-size: large;
+  background-color: aliceblue;
+  margin:100px;
+  border-radius: 4px;
+  padding: 10px;
+}

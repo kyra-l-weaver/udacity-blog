@@ -1,6 +1,5 @@
 @import "./about.css";
-@import "./resources.css";
-@import "./archive.css";
+@import "./blog.css";
 @import "./card.css";
 body{
   font-family: Arial, Helvetica, sans-serif;
@@ -31,13 +30,13 @@ a{
 }
 
 .right-nav {
-  grid-column: 6;
+  grid-column: 5;
   grid-row: 2 / 10;
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 20px;
-  border: 1px solid red;
+  border: 2px solid darkolivegreen;
 }
 
 .about{
@@ -58,7 +57,7 @@ a{
   border-bottom: 4px solid darkolivegreen;
 }
 .introduction {
-  grid-column: 2 / 6;
+  grid-column: 1 / 5;
   grid-row: 4 / 10;
   background-image: url(../images/pretty-harriman.jpg);
   background-blend-mode: soft-light;
@@ -83,7 +82,7 @@ footer {
   width: 100%;
   text-align: center;
 }
-
+s
 .email-form {
   display: inline;
 }
@@ -92,4 +91,18 @@ footer {
   width:100px;
   height:100px;
 }
+.blog-nav-top{
+  font-family:fantasy;
+  color: darkolivegreen;
+  kerning: 20px;
+  font-size: x-large;
+  border-bottom: 2px solid darkgoldenrod;
+}
+.blog-entry{
+  border: 1px dashed black;
+  margin:2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgb(238, 223, 187);
 
+}
