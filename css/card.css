@@ -1,6 +1,6 @@
+@media screen and (max-width: 1000px) {
 .top-card {
-  grid-column: 1 / 5;
-  grid-row: 2;
+  width: 100%;
 }
 .card{
   background:rgb(216, 231, 129);
@@ -8,6 +8,8 @@
   border: 2px solid darkolivegreen;
   text-decoration: none;
   margin:10px;
+  display: none;
+  
 }
 
 #card-1 {
@@ -42,4 +44,51 @@
   background: rgb(216, 231, 129) url('../images/camp-logo.png') no-repeat;
   background-size: 100% 90%;
   background-position-y: bottom; 
+}
+}@media screen and (min-width: 1000px) {
+  .top-card {
+    grid-column: 1 / 5;
+    grid-row: 2;
+  }
+  .card{
+    background:rgb(216, 231, 129);
+    border-radius: 4px;
+    border: 2px solid darkolivegreen;
+    text-decoration: none;
+    margin:10px;
+  }
+  
+  #card-1 {
+    grid-column: 1;
+    grid-row: 2 / 4;
+    background: rgb(216, 231, 129) url('../images/hiking-harriman.png') no-repeat;
+    background-size: 100% 90%;
+    vertical-align: bottom;
+    background-position-y: bottom;
+  }
+  
+  #card-2 {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    background: rgb(216, 231, 129) url('../images/getting-there.png') no-repeat;
+    background-size: 100% 90%;
+    background-position-y: bottom;
+  }
+    
+  #card-3 {
+    grid-column: 3;
+    grid-row: 2 / 4;
+    background: rgb(216, 231, 129) url('../images/map.png') no-repeat;
+    background-size: 100% 90%;
+    background-position-y: bottom; 
+  }
+  
+  #card-4 {
+    grid-column: 4;
+    grid-row: 2 / 4;
+    background-position-y: bottom;
+    background: rgb(216, 231, 129) url('../images/camp-logo.png') no-repeat;
+    background-size: 100% 90%;
+    background-position-y: bottom; 
+  }
 }

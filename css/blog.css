@@ -1,13 +1,89 @@
+@media screen and (max-width: 1000px) {
+  .blog-wrapper{
+    width: 100%;
+  }
+  #blog1-wrapper{
+    background: darkolivegreen;
+    width:100%;
+    opacity: 80%;
+    
+  }
+  #blog2-wrapper{
+    background: darkolivegreen;
+    opacity: 80%;
+    width:100%;
+  }
+  #blog3-wrapper{
+    background: darkolivegreen;
+    opacity: 80%;
+    width:100%;
+  }
+  #blog4-wrapper{
+    background: darkolivegreen;
+    opacity: 80%;
+    width:100%;
+  }
+  .blog-head{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    width: 100%;
+    border-bottom: 4px solid darkolivegreen;
+    background-color: white;
+  }
+  .blog-title{
+    display:block;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 10px;
+    margin:10px;
+    font-size: large;
+  }
+  
+  .author-date{
+    display: block;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin:10px;
+  }
+  
+  .main-text{
+    background-color: aliceblue;
+    margin:10px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: large;
+    kerning: 10px;
+   
+  }
+  .interior-image{
+    width:200px;
+    height:auto;
+    float: left;
+    padding: 5px;
+  
+  }
+  .blog-links{
+    display: flex;
+    flex-direction: row;
+    gap:70vw;
+  }
+}
+@media screen and (min-width: 1000px) {
+
 .blog-wrapper{
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: repeat(30, 50px);
+  grid-template-rows: repeat(40, 50px);
 }
 
 #blog1-wrapper{
+  background: darkolivegreen;
   background-image: url("../images/buddies.jpg");
   width:100%;
   opacity: 80%;
+  
 }
 #blog2-wrapper{
   background-image: url("../images/camp.jpg");
@@ -36,6 +112,13 @@
   gap: 31vw;
 }
 
+.interior-image{
+  width:300px;
+  height:auto;
+  float: left;
+  padding: 5px;
+
+}
 #logo{
   height: inherit;
 }
@@ -63,12 +146,12 @@
   padding: 40px;
   font-size: large;
   kerning: 10px;
-  grid-row: 5 / 31;
+  grid-row: 5 / 38;
   grid-column: 2 / 11;
 }
 
 .blog-links{
-  grid-row: 14;
+  grid-row: 24;
   grid-column: 2 / 11;
   display: flex;
   flex-direction: row;
@@ -78,4 +161,5 @@
 summary{
   font-weight:bolder;
   border: 1px dashed darkolivegreen;
+}
 }
